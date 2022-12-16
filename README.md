@@ -1,44 +1,69 @@
-# Next.js + Tailwind CSS Example
+  
+<h1 align="center">
+  <br>
+  <a href="soul-token.vercel.app/"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHzERSYhAYxEww9gWps0OKdDoi0fQwp9ivVcKX5hcqViHX8-jD0YIeJY3VBJIkjSlxAcEo6GQ6xEEG_APdhonaVbvC0yD0td9iDUJPQu5Q5anZnUeVasQd6_Se_LGfNSW-hhiTDrVVj9qoOfbncqBxSg_8QLuid1pkPKDHPVCVKaT_X64pjJs5Cabo/s2000/soul.png" width="300"></a>
+  <br>
+  Soul 
+  <br>
+</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h4 align="center"> a soulbound token (SBT) issuance engine, built on XDC </h4>
 
-## Deploy your own
+<p align="center">
+  <a href="#Introduction">Introduction</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a> 
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixWrqEkIru6EG86RNGJ8ztj5uYCWnHqYUOzN5r_yfKWWM85vsm1aNA1FMaoCL7_UN2_BgM1gr1w4IcTgwUgXyADCcfpd09SZybzF4vKGbA8qsAJTcvv42MFYvVxikpNl5xzccuqnlYSekUo7N4Ihf3FtMMwJcIjkBfM-Hd3fdPHVRs5MpLizyAdBNS/s1000/soso.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Introduction
+ SBTs are an important on-chain primitive for many critical use cases. As a result, SBTs have become increasingly important in the conversation around decentralized identity and reputation, and are part of a fuller story which includes on-chain and off-chain credentials. 
+ 
+ The underlying smart contract architecture includes:(1) Soulbound token engine: Creates soulbound tokens (1a) Core: Entrypoint to interact with the full engine (1b) SBT: Modular soulbound ERC721 design deployed to XDC (1c) SBTFactory: Modular factory generator, which enables you to create SBT collections which follow the rules you set up.
+ 
+## Key Features
 
-## How to use
+*  Create, assign, and claim SBTs
+* Some of the use cases Soulmates can support include: lending protocols, DeFi solutions,  
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## How To Use
+
+To clone and run this project , you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+# Clone this repository
+$ git https://github.com/malawadd/soul-token.git
+
+# Go into the repository
+$ cd soul-token
+
+# Install dependencies
+$ yarn install
+
+# Run the app
+$ yarn start
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl) or use `node` from the command prompt.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-### TODO
+## Credits
 
-- Creation Date should enforce a date - date picker maybe?
-- File uploaded should replace the gray square
-- Assign NFT previews - Images should be the same size, or at least scaled to the same width or height
-- Assign page's NFTPreviewDialog's button should be a "Exit" button. Maybe a red X?
+Soul uses the following open source packages:
 
-### DONE
+- [nextjs](https://nextjs.org/) Next.js gives you the best developer experience with all the features you need for production
+- [RainbowKit](https://www.rainbowkit.com/) RainbowKit provides a fast, easy and highly customizable way for developers to add a great wallet experience to their application.
+- [ wagmi](https://wagmi.sh/) wagmi is a collection of React Hooks containing everything you need to start working with Ethereum.
+- [The Ethers Project](https://github.com/ethers-io/ethers.js)  A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript)
 
-- Available underline
-- Clicking outside of the Assign dialog no longer closes
 
-### Presentation Notes
 
-- Setup demo address with oracle ahead of time
-- Upload image to IPFS ahead of time
+
+## License
+
+MIT
