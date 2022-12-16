@@ -1,0 +1,7 @@
+[
+  "constructor(address)",
+  "function _ids(uint256) view returns (bytes32)",
+  "function getFactory(bytes32) view returns (address)",
+  "function getStorageAddress() view returns (address)",
+  "function registerFactory(bytes32,address)"
+]

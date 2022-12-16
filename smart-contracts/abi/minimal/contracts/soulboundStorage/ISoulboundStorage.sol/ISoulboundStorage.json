@@ -1,0 +1,11 @@
+[
+  "function addIssuedToken(address,address,address)",
+  "function confirmMint(address,address,uint256)",
+  "function getDeployedCollections(address) view returns (address[])",
+  "function getMintsByIssuer(address) view returns (tuple(address,address)[])",
+  "function getMintsByReceiver(address) view returns (tuple(address,uint256,bool)[])",
+  "function registerCollection(address,address)",
+  "function registerEngine(address)",
+  "function registerFactory(address)",
+  "function wasMintConfirm(address,address) view returns (bool)"
+]
