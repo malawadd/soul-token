@@ -9,9 +9,11 @@
 
 <h4 align="center"> a soulbound token (SBT) issuance engine, built on XDC </h4>
 
+
 <p align="center">
   <a href="#Introduction">Introduction</a> •
   <a href="#key-features">Key Features</a> •
+  <a href="#Contracts address">Contracts address</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a> 
@@ -28,6 +30,13 @@
 
 *  Create, assign, and claim SBTs
 * Some of the use cases Soulmates can support include: lending protocols, DeFi solutions,  
+
+## Contracts address 
+SoulboundEngineContract = ["0xB11011307e0F3c805387c10aa69F874244b1bec3"](https://xdcscan.io/address/xdcb11011307e0f3c805387c10aa69f874244b1bec3#transactions)
+
+SoulboundStorageContract = ["0x24c23a634dC1dD033Dc2B2063bc689BD35BE610f"](https://xdcscan.io/address/xdc24c23a634dc1dd033dc2b2063bc689bd35be610f#transactions)
+
+openFactory = ["0x804BCb3B87F93Ec42B672cda3f88A1978d6e884F"](https://xdcscan.io/address/xdc804bcb3b87f93ec42b672cda3f88a1978d6e884f#transactions)
 
 ## How To Use
 
